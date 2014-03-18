@@ -1,19 +1,19 @@
 ### How to create your own helpers
 ###### 2011-11-23 09:10
 
-Helpers provide extra functions that you can use inside the XenForo templates.
+Helpers, in an MVC scenario, are where you put methods and logic which might otherwise go inside the views. In Xenforo this means you can put your own functions that you'd like to use inside the XenForo templates, in helpers.
 
-Currently there are many Helpers, following some them:
+Here are some examples of Xenforo helpers:
 
 - **avatar**: Helper to fetch the URL of a user's avatar.
 - **username**: Produces a username snippet.
 - **usertitle**: Helper to get the user title for the specified user.
 - **richusername**: Outputs the necessary HTML for a rich username (includes the display style markup class).
-- **ismemberof**: Check if the user is member of a group.
+- **ismemberof**: Checks to see if the user is member of a group.
 - **wordtrim**: Word trims and HTML escapes the given string.
 - **autolink**: Auto-links URLs in plain text. This text should generally already be HTML escaped, because it can't be done after the linking.
 
-You can call a helper in the template this way:
+Calling helpers in templates is easy, here's how:
 
 ```
 {xen:helper NAME_OF_THE_HELPER, 'argument1', 'argument2'}
