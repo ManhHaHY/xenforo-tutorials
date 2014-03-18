@@ -1,7 +1,7 @@
 ### How to create your own helpers
 ###### 2011-11-23 09:10
 
-Helpers, in an MVC scenario, are where you put methods and logic which might otherwise go inside the views. In Xenforo this means you can put your own functions that you'd like to use inside the XenForo templates, in helpers.
+Helpers, in an MVC scenario, are where you put methods and logic which might otherwise go inside the views. In Xenforo you deal with views via the templates, and so this means you can put your own functions and other view logic (that you'd like to use inside the XenForo templates) into helpers.
 
 Here are some examples of Xenforo helpers:
 
