@@ -24,7 +24,7 @@ So, but what if we want to use a custom template helper?
 
 ### Step 1 - Begin
 
-As usual let's starting by creating the folder for our add-on, and including a listener (because we need one). This is the final structure:
+As usual let's start by creating the folder for our add-on, and we'll include a listener as well (because we need one). This is what the directory structure should look like:
 
 ```
 forumroot
