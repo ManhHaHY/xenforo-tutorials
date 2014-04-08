@@ -60,10 +60,10 @@ class SimpleHelper_Listener
 ?>
 ```
 
-**What it does?**
-This function listen to the Code Event Listener init_dependecies. This code event is called when the dependency manager loads its default data. Is fired on virtually every page and is the first thing you can plug into.
+**What does it do?**  
+This function listens to the Code Event Listener ```init_dependecies```. This code event is called when the dependency manager loads its default data. It is fired on virtually every page and is the first thing you can plug into.
 
-The following code get the static $helperCallbacks which has the list of helpers, and merge a new one, the our simple helper.
+The following code gets the static ```$helperCallbacks``` which has a list of helpers, and merges our, simple helper into it.
 
 ```php
 XenForo_Template_Helper_Core::$helperCallbacks += array(
@@ -71,13 +71,13 @@ XenForo_Template_Helper_Core::$helperCallbacks += array(
 );
 ```
 
-Notice that the **SimpleHelper_Helpers** do not exists. We'll creating this class in the next step.
+Notice that **SimpleHelper_Helpers** does not exist. We'll be creating this class in the next step.
 
 We now need to do two things: create a new add-on and create a new event listener in the **AdminCP**.
 
-#### Create the add-on
+#### Creating the add-on
 
-To create a new add-on, go to **AdminCP -> Development -> Create Add-on** and fill with the info:
+To create a new add-on, go to **AdminCP -> Development -> Create Add-on** and fill in with the following info:
 
 - **Add-on ID**: SimpleHelper
 - **Title**: Simple Helper
@@ -86,7 +86,7 @@ To create a new add-on, go to **AdminCP -> Development -> Create Add-on** and fi
 
 Then save it.
 
-#### Create the Event Listener
+#### Creating the Event Listener
 
 Go to **AdminCP -> Development -> Code Event Listeners** and create a new listener using our function.
 
@@ -100,7 +100,7 @@ Save it!
 
 ### Step 2 - Core
 
-Now that are all setup, let's create the function that will handle the call to the helper echo.
+Now that are everything is setup, let's create the function that will handle the call to the helper echo.
 
 Create one more file:
 
@@ -113,7 +113,7 @@ forumroot
 |---XenForo
 ```
 
-Open the new file `SimpleHelper/Helpers.php` and put the following code:
+Open the new file `SimpleHelper/Helpers.php` and put the following code inside it:
 
 ```php
 <?php
@@ -160,7 +160,7 @@ Ok, it works, but how we can make this helper a little more.....helpish?
 ### Step 4 - More functionality
 
 
-Let's change what this helper do. Open the file `SimpleHelper/Helpers.php` and change our `helperEcho` to the following code:
+Let's change what this helper does. Open the file `SimpleHelper/Helpers.php` and change our `helperEcho` to the following code:
 
 ```php
 public static function helperEcho ($string, $color)
