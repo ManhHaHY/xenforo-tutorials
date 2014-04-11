@@ -1,9 +1,9 @@
 ### How to add a new sidebar in the forum list
 ###### 2012-02-15 17:11
 
-I will teach you to add a new sidebar with a custom content in the forum list page.
+In this tutorial I will show you how to add a new sidebar with your own custom content in the forum list page.
 
-This is the final result:
+This is what the final result will look like:
 
 ![image 1](images/1.png)
 
