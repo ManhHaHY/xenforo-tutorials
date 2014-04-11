@@ -29,9 +29,9 @@ To create a new add-on go to **AdminCP -> Home -> List Add-ons** and click in th
 - **Version String**: 1.0.0
 - **Version ID**: 1
 
-And the rest of the fields just let in blank. We do not need to fill. This add-on is just simple add-on, so we dont have any installation process or something. Click Save Add-on and your add-on is created!
+Leave the rest of the fields blank. This add-on is just simple add-on, so there's nothing else to add here. Click Save Add-on and your add-on is created!
 
-Before continue, let's create our folder and the necessary file. Go to `your_xenforo_root/library` and create a new folder naming it to `NewSidebar`. Inside this new created folder, create a file called: `Listener.php`.
+Before continuing, let's create our folder and the necessary file. Go to `your_xenforo_root/library` and create a new folder, naming it `NewSidebar`. Inside this folder, create a file called: `Listener.php`.
 
 ### <a name="step_2__the_template"></a>Step 2 - The template
 
