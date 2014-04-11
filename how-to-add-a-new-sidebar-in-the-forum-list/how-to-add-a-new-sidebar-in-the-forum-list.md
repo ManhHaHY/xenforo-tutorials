@@ -19,9 +19,9 @@ This tutorial consists of 4 steps:
 
 ### <a name="step_1__creating_the_addon"></a>Step 1 - Creating the Add-on
 
-First we need to create a new add-on. This is a very simple step. To be able to create you need to be in Debug Mode. You can see how to put your forum in Debug Mode in this [link](http://xenforo.com/community/threads/frequently-asked-questions.5183/#post-248490).
+First we need to create a new add-on. This is simple enough to do, but first you will need to be in Debug Mode. You can put your forum in Debug Mode by following the steps here: [link](http://xenforo.com/community/threads/frequently-asked-questions.5183/#post-248490).
 
-To create a new add-on go to **AdminCP -> Home -> List Add-ons** and click in the button **Create Add-on**. In the following screen you need to fill those fields to create the add-on. Use the info below:
+To create a new add-on go to **AdminCP -> Home -> List Add-ons** and click in the button **Create Add-on**. In the following screen you need to fill in the fields with the following info:
 
 - **Add-on ID**: NewSidebar
 - **Title**: Tutorial New Sidebar
