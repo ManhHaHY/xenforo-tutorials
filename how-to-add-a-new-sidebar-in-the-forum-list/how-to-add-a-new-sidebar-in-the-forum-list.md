@@ -9,7 +9,7 @@ This is what the final result will look like:
 
 <!--more-->
 
-This tutorial consists in 4 steps:
+This tutorial consists of 4 steps:
 
 - [Step 1 - Creating the Add-on](#step_1__creating_the_addon)
 - [Step 2 - The template](#step_2__the_template)
