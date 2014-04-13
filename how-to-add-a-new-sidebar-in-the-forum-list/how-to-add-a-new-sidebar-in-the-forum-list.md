@@ -35,9 +35,9 @@ Before continuing, let's create our folder and the necessary file. Go to `your_x
 
 ### <a name="step_2__the_template"></a>Step 2 - The template
 
-We need now to create the template that will hold our content to be shown in the sidebar. You can put whatever you want in the template, but for this tutorial we'll just output a simple text "Hello World". To create a new template (will be used in our new sidebar) go to **AdminCP -> Appearance -> Templates** and hit the **+Create new Template** button.
+We now need to create the template that will hold our content that we want to display in the sidebar. You can put whatever you want in the template, but for this tutorial we'll just add the text "Hello World". To create a new template, go to **AdminCP -> Appearance -> Templates** and hit the **+Create new Template** button.
 
-You can copy and paste in the template editor the following code:
+You can copy and paste the following into the template editor:
 
 **Template name**: *newsidebar_sidebar*
 
