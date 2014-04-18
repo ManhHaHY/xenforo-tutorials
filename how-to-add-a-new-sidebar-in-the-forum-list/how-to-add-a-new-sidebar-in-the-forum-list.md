@@ -145,7 +145,7 @@ Go back to the page where you were before, the code event listeners page. If you
 
 ![image 3](images/3.png)
 
-So, now, fill in Execute Callback with the information we've got:
+Now, fill in Execute Callback with the information we've got:
 
 - **Class**: NewSidebar_Listener
 - **Method**: templateHook
